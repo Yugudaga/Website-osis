@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    padding: 7px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title img {
+    margin-right: 5px;
+}
+
+.title .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.gambar-bulat {
+    border-radius: 50%;
+}
+
+.ini {
+    font-family: helvetica;
+}
+
+.bt {
+    font-family: helvetica;
+}
+
+#message {
+    resize: none;
+}
+
+nav {
+    opacity: 50%;
+    font-family: Times New Roman;
+}
+
+.PPDB {
+    font-size: 25px;
+}
+
+.callus {
+    margin-block: 5px;
+    font-family: Times New Roman;
+    opacity: 70%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+   list-style-type: 5;
+   padding: 3;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.osis {
+    font-weight: bold;
+}
+
+.JikaAda {
+    color: red;
+}
+/* Gaya CSS Anda yang sudah ada */
+
+/* Untuk layar dengan lebar kurang dari 768px */
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 100%; /* Mengubah lebar maksimum kontainer menjadi 100% */
+    }
+
+    .column {
+        width: 100%; /* Mengubah lebar kolom menjadi 100% */
+        float: none; /* Menghapus float */
+    }
+}
+.menu-icon {
+    position: fixed;
+    top: 20px; /* Ubah sesuai kebutuhan */
+    right: 30px; /* Ubah sesuai kebutuhan */
+    cursor: pointer;
+    z-index: 1000; /* Pastikan ikon muncul di atas konten lain */
+}
+
+.line {
+    width: 30px;
+    height: 3px;
+    background-color: #6fdef6; /* Warna garis, bisa disesuaikan */
+    margin: 5px;
+}
+
+.menu {
+    display: none;
+    position: fixed;
+    top: 60px; /* Sesuaikan jarak dari atas */
+    right: 30px; /* Sesuaikan jarak dari kanan */
+    background-color:#d4eaf8; /* Warna latar belakang menu */
+    padding: 10px;
+    border: 0px solid #000; /* Border untuk menu */
+    z-index: 999; /* Pastikan menu muncul di atas konten lain */
+    font-family:Times New Roman;
+}
+
+.menu.show {
+    display: block;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    margin-bottom: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000; /* Warna teks menu */
+}
+/* Untuk layar dengan lebar lebih dari 768px (mode desktop) */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 960px; /* Atur lebar maksimum kontainer */
+        margin: 0 auto; /* Atur margin otomatis untuk posisi tengah */
+    }
+
+    .column {
+        width: 50%; /* Atur lebar kolom menjadi 50% */
+        float: left; /* Gunakan float untuk menyusun kolom */
+    }
+
+    /* Atur tampilan menu untuk mode desktop */
+    nav {
+        opacity: 100%; /* Kembalikan opasitas menu */
+        font-family: Arial, sans-serif; /* Gunakan jenis huruf yang sesuai */
+        text-align: center; /* Pusatkan teks pada menu */
+      
+    }
+    .content{
+      text-align-last: center;
+      text-align: center;
+    }
+.pramukagaleri{
+ list-style-type: none;
+   padding: 3;
+}
+.pmrgaleri{
+ list-style-type: none;
+   padding: 3;
+}
+.osisgaleri{
+ list-style-type: none;
+   padding: 3;
+}
